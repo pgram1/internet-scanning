@@ -1,0 +1,6 @@
+#!/bin/bash
+
+while read IP
+do 
+    printf "$IP >> $( dig +short -x $IP )\n";
+done < $1

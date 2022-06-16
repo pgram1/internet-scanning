@@ -1,0 +1,1 @@
+nmap -T5 -sL -iL $1
