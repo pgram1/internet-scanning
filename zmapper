@@ -1,1 +1,1 @@
-sudo zmap -p $1 -i wlp3s0 $2 -o $3
+sudo zmap -p $1 -i enp7s0 $2 -o $3
